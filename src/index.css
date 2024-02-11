@@ -143,3 +143,20 @@ code {
   cursor: pointer;
   align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+  .icon {
+    position: absolute;
+    transition: position 1s ease-in-out;
+    transform: translateX(-700px);
+  }
+  .menu_show {
+    display: block;
+  }
+  .Sidebar {
+  }
+
+  .Righ_Content {
+    width: 100%;
+  }
+}

@@ -114,7 +114,7 @@ const Store = () => {
   const handleClose = () => setOpen(false);
   return (
     <div className=" px-[25px] py-[40px]">
-      <div className="header flex justify-between w-full">
+      <div className="header flex-col md:flex-row flex justify-between w-full">
         <div className="left flex gap-3 items-center">
           <h1 className=" text-[28px] ">My Store</h1>
           <button className=" bg-[#341E9D] text-white px-[5px] rounded-[20px]">

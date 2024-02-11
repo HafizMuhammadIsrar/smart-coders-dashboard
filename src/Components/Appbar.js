@@ -214,7 +214,7 @@ const Appbar = ({ showside, setshowside }) => {
         <Box sx={{ flexGrow: 1 }}>
           <AppBar position="static">
             <Toolbar>
-              <div className={` ${show ? "block" : "hidden"}`}>
+              <div className={` menu_show ${show ? "block" : "hidden"}`}>
                 <IconButton
                   size="large"
                   edge="start"

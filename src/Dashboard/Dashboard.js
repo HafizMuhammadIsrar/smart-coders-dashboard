@@ -67,7 +67,7 @@ const Dashboard = () => {
             </>
           ) : (
             <>
-              <div className="Sidebar border-right-[#aca7a7] border-[1px] w-[240px] ">
+              <div className="Sidebar hidden md:block w-full border-right-[#aca7a7] border-[1px] md:w-[240px] ">
                 {/* <div className="icon min-h-[64px] border-bottom-[#aca7a7] border-[1px]"></div> */}
                 <ul className="flex flex-col gap-1 pt-3">
                   <a href="/">

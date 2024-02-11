@@ -49,12 +49,12 @@ const Data = [
 const Overview = () => {
   return (
     <div className="px-[25px] py-[40px] Custom_height">
-      <div className="header flex justify-between w-full">
+      <div className="header flex justify-between flex-col md:flex-row w-full">
         <div className="left">
           <h1 className=" text-[22px]">Hello, Chidinma</h1>
           <p className=" text-[#777485]"> Saturday, 22 January 2022</p>
         </div>
-        <div className="right bg-[#F0F0F7] flex p-3 rounded-[14px]">
+        <div className="right bg-[#F0F0F7] flex-col md:flex-row flex p-3 rounded-[14px]">
           <div className="current">
             <p>Current</p>
             <div className="flex items-center justify-center gap-2">
@@ -76,7 +76,7 @@ const Overview = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-5 mt-5">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-5">
         {Data.map((data) => {
           return (
             <>
