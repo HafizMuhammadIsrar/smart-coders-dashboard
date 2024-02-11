@@ -48,7 +48,7 @@ const Data = [
 
 const Overview = () => {
   return (
-    <div className="px-[25px] py-[40px] ">
+    <div className="px-[25px] py-[40px] Custom_height">
       <div className="header flex justify-between w-full">
         <div className="left">
           <h1 className=" text-[22px]">Hello, Chidinma</h1>
@@ -57,11 +57,11 @@ const Overview = () => {
         <div className="right bg-[#F0F0F7] flex p-3 rounded-[14px]">
           <div className="current">
             <p>Current</p>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center gap-2">
               <div className="ratio">4.00</div>
               <div className="stars flex items-center gap-2">
-                <Icon icon="emojione:star" width="15" height="15" />
-                <Icon icon="emojione:star" width="15" height="15" />
+                <Icon icon="emojione:star" width="18" height="18" />
+                <Icon icon="emojione:star" width="18" height="18" />
                 <Icon icon="ph:star-light" width="15" height="15" />
                 <Icon icon="ph:star-light" width="15" height="15" />
                 <Icon icon="ph:star-light" width="15" height="15" />
@@ -71,7 +71,7 @@ const Overview = () => {
           <hr className="mx-6 bg-black w-[2px] " />
           <div className="active">
             <p>Active Listings</p>
-            <p>100 Craft</p>
+            <p className="  text-xl">100 Craft</p>
           </div>
         </div>
       </div>

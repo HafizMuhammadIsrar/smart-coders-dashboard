@@ -88,9 +88,9 @@ const Wallet = () => {
                 <Tab label="WithDrawn Funds" value="3" />
               </TabList>
             </Box>
-            <TabPanel value="1"></TabPanel>
-            <TabPanel value="2"> </TabPanel>
-            <TabPanel value="3"> </TabPanel>
+            <TabPanel value="1">All Transaction</TabPanel>
+            <TabPanel value="2"> Paid Funds</TabPanel>
+            <TabPanel value="3">WithDrawn Funds </TabPanel>
           </TabContext>
         </Box>
       </div>

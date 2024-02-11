@@ -19,16 +19,42 @@ code {
 }
 
 .Topbar {
+  width: calc(100% - 240px);
+
   box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px,
     rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+}
+.half {
+  width: calc(100% - 240px);
+}
+.full {
+  width: 100%;
+}
+.show {
+  /* transition: all 1s ease-in-out; */
+  transform: translateX(0);
+}
+.hide {
+  /* width: 0; */
+  position: absolute;
+  transition: position 1s ease-in-out;
+  transform: translateX(-700px);
 }
 
 .Sidebar {
   height: calc(100vh - 64px);
+  /* height: 100vh; */
 }
 .Righ_Content {
+  width: calc(100% - 240px);
   height: calc(100vh - 64px);
   overflow: scroll;
+}
+.hideside {
+  width: calc(100% - 80px);
+}
+
+.Custom_height {
 }
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
   /* width: 180px; */
